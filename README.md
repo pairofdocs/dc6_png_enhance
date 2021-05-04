@@ -10,6 +10,8 @@ A tool to convert from .dc6 (D2 images) to upsampled .png images
 
 
 ### Usage
+[Download the files from this repository](https://github.com/pairofdocs/dc6_png_enhance/archive/refs/heads/master.zip) and unzip
+
 Open a terminal (shift + right click in your folder and select 'Open Powershell window here') then run `python dc6_png_enhance.py`
 
 `python dc6_png_enhance.py` takes `*.dc6` files in `./dc6/` and makes 4x ai upsampled pngs in `./png-hd/`
