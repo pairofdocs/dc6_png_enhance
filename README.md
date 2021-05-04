@@ -47,3 +47,4 @@ Kinemil's Awl sword: LoD, LoD enhanced, and D2R
 - https://github.com/eezstreet/D2RModding-SpriteEdit/tree/master/D2RModding-SpriteEdit
 - https://d2mods.info/forum/downloadsystemcat?id=14&sid=c82d745c9dfee8c09369f78120475a39
 - https://github.com/dschu012/dc6png
+- https://imagemagick.org/index.php
