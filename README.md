@@ -1,4 +1,5 @@
-## dc6 to png enhance
+## dc6 to png Enhance
+A tool to convert from .dc6 (D2 images) to upsampled .png images
 
 ### Requirements
 - python https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe  (check the 'add to path' box when installing)
@@ -27,12 +28,19 @@ for example https://docs.libretro.com/shader/scalefx/ ,and  xbrz is popular http
 
 ### Image Comparisons
 
-LoD:  jewel
-LoD enhanced:  jewel
+Jewel: LoD, LoD enhanced, and D2R
+- ![LoD orig](https://i.imgur.com/sZZYJG0.png)
 
-D2R: jewel
+- ![LoD enhanced](https://i.imgur.com/TPtO6YU.jpg)
 
-kinem awl sword
+- ![d2r](https://i.imgur.com/w07qn8D.png)
+
+Kinemil's Awl sword: LoD, LoD enhanced, and D2R
+- ![LoD orig](./dc6/invgisu.png)
+
+- ![LoD enhanced](./png-hd/invgisu-hd.png)
+
+- ![d2r](https://i.imgur.com/yRicRuy.png)
 
 
 ### Credits and Tools
