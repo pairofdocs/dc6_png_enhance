@@ -29,7 +29,7 @@ def dl_hd_img(filename):
       shutil.copyfileobj(respimg.raw, out_file)
     del respimg
 
-  return rr.status_code
+  return rr.status_code, rr.json()
 
 
 files_dc6 = glob.glob('dc6/*dc6')
@@ -47,7 +47,9 @@ files_png = glob.glob('dc6/*.png')
 files_png = [f for f in files_png if '-hd.png' not in f]
 for i, filen in enumerate(files_png):
   print(f' \n\n ------- {i} ------- starting {filen}')
-  statuscode = dl_hd_img(filen)
+  statuscode, resultjson = dl_hd_img(filen)
   
   if statuscode != 200:
+    print(f"request status code: {statuscode}")
+    print(resultjson)
     break
