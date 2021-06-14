@@ -6,7 +6,7 @@ A tool to convert from .dc6 (D2 images) to upsampled .png images
 
 - dc6con.exe from the phrozen keep http://phrozenkeep.blob.core.windows.net/public/files/tools/image/dc6con.zip. dc6con is included in this github repo
 
-- imagemagick for windows (linux, mac works too)  https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.0.11-10-Q16-HDRI-x64-dll.exe (check the 'convert legacy' feature box when installing)
+- imagemagick for windows (linux, mac works too) [7.1.0 from here](https://download.imagemagick.org/ImageMagick/download/binaries/ImageMagick-7.1.0-0-Q16-HDRI-x64-dll.exe) or the newest release [here](https://imagemagick.org/script/download.php#windows) (check the 'convert legacy' feature box when installing)
 
 
 ### Usage
@@ -20,6 +20,12 @@ Open a terminal (shift + right click in your folder and select 'Open Powershell 
 Up sampling / super resolution is done with https://deepai.org/ 's [API](https://deepai.org/machine-learning-model/torch-srgan)
 
 The output upsampled `.png` feeds right into [SpriteEdit](https://github.com/eezstreet/D2RModding-SpriteEdit/tree/master/D2RModding-SpriteEdit) and when converted to a `.sprite` can go into the D2R data folder `data/hd/global/ui/items, panels, etc`
+
+
+### Note: Trial API Key
+`dc6_png_enhance.py` uses a trial API key from https://deepai.org.  
+If you need to convert more than 10 dc6 images then sign up to get an API key for free with https://deepai.org/.  
+Then enter your API key on [line 15 of dc6_png_enhance.py](https://github.com/pairofdocs/dc6_png_enhance/blob/master/dc6_png_enhance.py#L15) after `"api-key":"`.
 
 
 ### Other Ideas
